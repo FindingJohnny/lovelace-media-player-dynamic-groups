@@ -284,3 +284,4 @@ class StackInCard extends LitElement implements LovelaceCard {
     return styles;
   }
 }
+
