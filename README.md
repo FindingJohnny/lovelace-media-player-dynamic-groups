@@ -2,8 +2,8 @@
 
 Media Player Dynamic Groups is a card to help dynaically show media_players depending on which speakers/speaker groups are currently playing.
 
-![Screenshot - Expanded Group Volume Controls](/docs/media-player-dynamic-groups-expanded?raw=true "Screenshot")
-![Screenshot - Collapsed Group Volume Controls](/docs/media-player-dynamic-groups-collapsed?raw=true "Screenshot")
+![Screenshot - Expanded Group Volume Controls](/docs/media-player-dynamic-groups-expanded.png "Screenshot")
+![Screenshot - Collapsed Group Volume Controls](/docs/media-player-dynamic-groups-collapsed.png "Screenshot")
 
 ## Required 
 
