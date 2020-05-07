@@ -1,7 +1,7 @@
 import { LitElement, customElement, property, TemplateResult, html, CSSResult } from 'lit-element';
 import { ifDefined } from 'lit-html/directives/if-defined';
 import { HomeAssistant, LovelaceCardConfig, createThing, LovelaceCard } from 'custom-card-helpers';
-import { MagicMediaPlayerConfig, MediaPlayerTreeWithState, MediaPlayerTree } from './types';
+import { MediaPlayerDynamicGroupsConfig, MediaPlayerTreeWithState, MediaPlayerTree } from './types';
 import * as pjson from '../package.json';
 import * as _ from 'lodash';
 import { addStateToTree, getRootMediaPlayerView, buildMediaPlayerList } from './media-player-tree-helpers';
@@ -30,7 +30,7 @@ class StackInCard extends LitElement implements LovelaceCard {
 
   @property() protected _treeWithState?: MediaPlayerTreeWithState;
 
-  @property() private _config?: MagicMediaPlayerConfig;
+  @property() private _config?: MediaPlayerDynamicGroupsConfig;
 
   @property() private _hass?: HomeAssistant;
 
@@ -81,7 +81,7 @@ class StackInCard extends LitElement implements LovelaceCard {
     }
   }
 
-  public setConfig(config: MagicMediaPlayerConfig): void {
+  public setConfig(config: MediaPlayerDynamicGroupsConfig): void {
     if (!config.card) {
       throw new Error(`There is no card parameter defined`);
     }
@@ -284,4 +284,3 @@ class StackInCard extends LitElement implements LovelaceCard {
     return styles;
   }
 }
-

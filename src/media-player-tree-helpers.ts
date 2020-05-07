@@ -1,4 +1,4 @@
-import { MediaPlayerTree, MediaPlayerTreeWithState, MediaPlayerState, MagicMediaPlayerConfig } from './types';
+import { MediaPlayerTree, MediaPlayerTreeWithState, MediaPlayerState, MediaPlayerDynamicGroupsConfig } from './types';
 import { HomeAssistant, LovelaceCardConfig } from 'custom-card-helpers';
 
 export function buildMediaPlayerList(tree: MediaPlayerTree): string[] {

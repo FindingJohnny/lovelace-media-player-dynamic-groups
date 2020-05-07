@@ -1,6 +1,6 @@
 import { LovelaceCardConfig } from 'custom-card-helpers';
 
-export interface MagicMediaPlayerConfig {
+export interface MediaPlayerDynamicGroupsConfig {
   type: string;
   media_player_tree: MediaPlayerTree;
   card: LovelaceCardConfig;
