@@ -70,7 +70,7 @@ Use [HACS](https://hacs.xyz) or follow this [guide](https://github.com/thomaslov
 
 ```
 resources:
-  - url: /community_plugin/group-media-player/group-media-player.js
+  - url: /community/media-player-dynamic-groups/media-player-dynamic-groups.js
     type: js
 ```
 
